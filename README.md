@@ -1,4 +1,4 @@
-# UNet++ Semantic Segmentation on Multispectral Satellite Imagery
+# UNet++ Deep-Learning-Based-Land-Cover-Segmentation-from-Multispectral-Satellite-Imagery
 This project uses a **4 bands(RGB + NIR)** open-source **NAIP** satellite imagery to build a small land-cover classification dataset and train a **U-Net++** model for segmentation. The results were evaluated on multiple land-cover classes, and **single-image inference** is supported for visualization and testing.
 
 ## Dataset 
@@ -84,11 +84,5 @@ python inference.py
 
 This dataset was created using open-source satellite imagery from the **U.S. Department of Agriculture National Agriculture Imagery Program (NAIP)**.
 
-If you use this dataset in your research or project, please cite or acknowledge:
-
-> Source imagery: USDA NAIP  
-> Processed and labeled dataset: yinx111 (2025), https://github.com/yinx111/U-Net-Semantic-Segmentation-on-Multispectral-RGB-NIR-Imagery
-
-**And the dataset will be continuously expanded with additional land-cover categories and samples in future updates.**
 
 
